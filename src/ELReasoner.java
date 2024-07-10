@@ -63,7 +63,7 @@ public class ELReasoner {
         }
     }
 
-    // Check instances for concept
+    // Check instances
     public void checkInstances() {
         System.out.println("\nInstance Checking:");
         for (String individual : instanceOfConcepts.keySet()) {
